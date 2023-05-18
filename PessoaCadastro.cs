@@ -1,4 +1,5 @@
-﻿using CadastroGeral.modelo;
+﻿using cadastro.modelo.Enums;
+using CadastroGeral.modelo;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -97,90 +98,102 @@ namespace EmpresaMaxAlteirTesla
             lista.Add(Cad7);
             lista.Add(Cad8);
 
-            foreach(var Registro in lista)
+            foreach (var Registro in lista)
             {
 
-                Console.WriteLine($"ID :{Cad1.CadastroId}");
-                Console.WriteLine($" NOME : {Cad1.Nome}");
-                Console.WriteLine($" Escolaridade : {Cad1.Esolaridade}");
-                Console.WriteLine($"SALARIO: {Cad1.Salario}");
-                Console.WriteLine($"HORAS TRABALHADAS {Cad1.TempoDeServico}");
-                Console.WriteLine($" SETOR {Cad1.Setor}");
+                //Console.WriteLine($"ID :{Cad1.CadastroId}");
+                //Console.WriteLine($" NOME : {Cad1.Nome}");
+                //Console.WriteLine($" Escolaridade : {Cad1.Esolaridade}");
+                //Console.WriteLine($"SALARIO: {Cad1.Salario}");
+                //Console.WriteLine($"HORAS TRABALHADAS {Cad1.TempoDeServico}");
+                //Console.WriteLine($" SETOR {Cad1.Setor}");
 
-                Console.WriteLine("---------------------------------");
+                //Console.WriteLine("---------------------------------");
 
-                Console.WriteLine($"ID :{Cad2.CadastroId}");
-                Console.WriteLine($" NOME : {Cad2.Nome}");
-                Console.WriteLine($" Escolaridade : {Cad2.Esolaridade}");
-                Console.WriteLine($"SALARIO: {Cad2.Salario}");
-                Console.WriteLine($"HORAS TRABALHADAS {Cad2.TempoDeServico}");
-                Console.WriteLine($" SETOR {Cad2.Setor}");
+                //Console.WriteLine($"ID :{Cad2.CadastroId}");
+                //Console.WriteLine($" NOME : {Cad2.Nome}");
+                //Console.WriteLine($" Escolaridade : {Cad2.Esolaridade}");
+                //Console.WriteLine($"SALARIO: {Cad2.Salario}");
+                //Console.WriteLine($"HORAS TRABALHADAS {Cad2.TempoDeServico}");
+                //Console.WriteLine($" SETOR {Cad2.Setor}");
 
-                Console.WriteLine("---------------------------------");
+                //Console.WriteLine("---------------------------------");
 
-                Console.WriteLine($"ID :{Cad3.CadastroId}");
-                Console.WriteLine($" NOME : {Cad3.Nome}");
-                Console.WriteLine($" Escolaridade : {Cad3.Esolaridade}");
-                Console.WriteLine($"SALARIO: {Cad3.Salario}");
-                Console.WriteLine($"HORAS TRABALHADAS {Cad3.TempoDeServico}");
-                Console.WriteLine($" SETOR {Cad3.Setor}");
+                //Console.WriteLine($"ID :{Cad3.CadastroId}");
+                //Console.WriteLine($" NOME : {Cad3.Nome}");
+                //Console.WriteLine($" Escolaridade : {Cad3.Esolaridade}");
+                //Console.WriteLine($"SALARIO: {Cad3.Salario}");
+                //Console.WriteLine($"HORAS TRABALHADAS {Cad3.TempoDeServico}");
+                //Console.WriteLine($" SETOR {Cad3.Setor}");
 
-                Console.WriteLine("---------------------------------");
+                //Console.WriteLine("---------------------------------");
 
-                Console.WriteLine($"ID :{Cad4.CadastroId}");
-                Console.WriteLine($" NOME : {Cad4.Nome}");
-                Console.WriteLine($" Escolaridade : {Cad4.Esolaridade}");
-                Console.WriteLine($"SALARIO: {Cad4.Salario}");
-                Console.WriteLine($"HORAS TRABALHADAS {Cad4.TempoDeServico}");
-                Console.WriteLine($" SETOR {Cad4.Setor}");
+                //Console.WriteLine($"ID :{Cad4.CadastroId}");
+                //Console.WriteLine($" NOME : {Cad4.Nome}");
+                //Console.WriteLine($" Escolaridade : {Cad4.Esolaridade}");
+                //Console.WriteLine($"SALARIO: {Cad4.Salario}");
+                //Console.WriteLine($"HORAS TRABALHADAS {Cad4.TempoDeServico}");
+                //Console.WriteLine($" SETOR {Cad4.Setor}");
 
-                Console.WriteLine("---------------------------------");
+                //Console.WriteLine("---------------------------------");
 
-                Console.WriteLine($"ID :{Cad5.CadastroId}");
-                Console.WriteLine($" NOME : {Cad5.Nome}");
-                Console.WriteLine($" Escolaridade : {Cad5.Esolaridade}");
-                Console.WriteLine($"SALARIO: {Cad5.Salario}");
-                Console.WriteLine($"HORAS TRABALHADAS {Cad5.TempoDeServico}");
-                Console.WriteLine($" SETOR {Cad5.Setor}");
+                //Console.WriteLine($"ID :{Cad5.CadastroId}");
+                //Console.WriteLine($" NOME : {Cad5.Nome}");
+                //Console.WriteLine($" Escolaridade : {Cad5.Esolaridade}");
+                //Console.WriteLine($"SALARIO: {Cad5.Salario}");
+                //Console.WriteLine($"HORAS TRABALHADAS {Cad5.TempoDeServico}");
+                //Console.WriteLine($" SETOR {Cad5.Setor}");
 
-                Console.WriteLine("---------------------------------");
+                //Console.WriteLine("---------------------------------");
 
-                Console.WriteLine($"ID :{Cad6.CadastroId}");
-                Console.WriteLine($" NOME : {Cad6.Nome}");
-                Console.WriteLine($" Escolaridade : {Cad6.Esolaridade}");
-                Console.WriteLine($"SALARIO: {Cad6.Salario}");
-                Console.WriteLine($"HORAS TRABALHADAS {Cad6.TempoDeServico}");
-                Console.WriteLine($" SETOR {Cad6.Setor}");
+                //Console.WriteLine($"ID :{Cad6.CadastroId}");
+                //Console.WriteLine($" NOME : {Cad6.Nome}");
+                //Console.WriteLine($" Escolaridade : {Cad6.Esolaridade}");
+                //Console.WriteLine($"SALARIO: {Cad6.Salario}");
+                //Console.WriteLine($"HORAS TRABALHADAS {Cad6.TempoDeServico}");
+                //Console.WriteLine($" SETOR {Cad6.Setor}");
 
-                Console.WriteLine("---------------------------------");
+                //Console.WriteLine("---------------------------------");
 
-                Console.WriteLine($"ID :{Cad7.CadastroId}");
-                Console.WriteLine($" NOME : {Cad7.Nome}");
-                Console.WriteLine($" Escolaridade : {Cad7.Esolaridade}");
-                Console.WriteLine($"SALARIO: {Cad7.Salario}");
-                Console.WriteLine($"HORAS TRABALHADAS {Cad7.TempoDeServico}");
-                Console.WriteLine($" SETOR {Cad7.Setor}");
+                //Console.WriteLine($"ID :{Cad7.CadastroId}");
+                //Console.WriteLine($" NOME : {Cad7.Nome}");
+                //Console.WriteLine($" Escolaridade : {Cad7.Esolaridade}");
+                //Console.WriteLine($"SALARIO: {Cad7.Salario}");
+                //Console.WriteLine($"HORAS TRABALHADAS {Cad7.TempoDeServico}");
+                //Console.WriteLine($" SETOR {Cad7.Setor}");
 
-                Console.WriteLine("---------------------------------");
+                //Console.WriteLine("---------------------------------");
 
-                Console.WriteLine($"ID :{Cad8.CadastroId}");
-                Console.WriteLine($" NOME : {Cad8.Nome}");
-                Console.WriteLine($" Escolaridade : {Cad8.Esolaridade}");
-                Console.WriteLine($"SALARIO: {Cad8.Salario}");
-                Console.WriteLine($"HORAS TRABALHADAS {Cad8.TempoDeServico}");
-                Console.WriteLine($" SETOR {Cad8.Setor}");
+                //Console.WriteLine($"ID :{Cad8.CadastroId}");
+                //Console.WriteLine($" NOME : {Cad8.Nome}");
+                //Console.WriteLine($" Escolaridade : {Cad8.Esolaridade}");
+                //Console.WriteLine($"SALARIO: {Cad8.Salario}");
+                //Console.WriteLine($"HORAS TRABALHADAS {Cad8.TempoDeServico}");
+                //Console.WriteLine($" SETOR {Cad8.Setor}");
 
 
-                Console.WriteLine("--------------FIM-----------------");
+                //Console.WriteLine("--------------FIM-----------------");
 
+
+               // Console.WriteLine($"Total de pessoas : {lista.Count}");
+       
+            }
+            //if(lista.Where()
+            {
 
             }
-        
-
-
+            Console.WriteLine($"Total de pessoas : {lista.Count}");
+            Console.WriteLine($"Soma dos Sálarios");
+            Console.WriteLine($"");
+            Console.WriteLine($"");
+            Console.WriteLine($"");
+            Console.WriteLine($"");
+            Console.WriteLine($"");
+            Console.WriteLine($"");
+            Console.WriteLine($"");
         }
     }
-}
+    }
 
 
 
